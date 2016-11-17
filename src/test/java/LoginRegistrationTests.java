@@ -16,7 +16,7 @@ public class LoginRegistrationTests extends BaseTest {
     @DataProvider(name = "registrationInput")
     public Object[][] registrationInputData() {
         return new Object[][]{
-                {"", "last","a@b.com","password","Укажите имя"},
+                {"asdasdasd", "last","a@b.com","password","Укажите имя"},
                 {"first","","a@b.com","password","Укажите фамилию"},
                 {"first", "last","","password","Укажите свой адрес электронной почты"},
                 {"first", "last","a@b.com","","Укажите пароль"},
